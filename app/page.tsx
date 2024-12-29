@@ -8,6 +8,7 @@ import { useState } from 'react';
 export default function Home() {
   const [text, setText] = useState('');
 
+  // eslint-disable-next-line
   const onFilterChange = (e: any) => {
     const t = e.target.value;
     setText(t)
